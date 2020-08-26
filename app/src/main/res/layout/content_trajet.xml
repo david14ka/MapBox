@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".TrajetActivity"
+    tools:showIn="@layout/activity_trajet"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
+
+    <EditText
+        android:id="@+id/from"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:hint="@string/text_current_position"
+        android:inputType="textEmailAddress"
+        android:selectAllOnFocus="true"
+        android:drawableRight="@drawable/ic_search_black_24dp"
+        android:background="@drawable/bg_search_btn"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/ic_import_export_black_24dp"/>
+
+    <EditText
+        android:id="@+id/to"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:hint="@string/to"
+        android:inputType="textEmailAddress"
+        android:selectAllOnFocus="true"
+        android:drawableRight="@drawable/ic_search_black_24dp"
+        android:background="@drawable/bg_search_btn"/>
+
+</LinearLayout>

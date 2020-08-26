@@ -1,0 +1,58 @@
+{
+  "project_info": {
+    "project_number": "572195901650",
+    "firebase_url": "https://market-place-faaa0.firebaseio.com",
+    "project_id": "market-place-faaa0",
+    "storage_bucket": "market-place-faaa0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:572195901650:android:b1c422ed1233f5107b9d0b",
+        "android_client_info": {
+          "package_name": "com.dkz.gtcafrica"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBs25_i_mY8TYbL8Wh6VDhRM_fIPsvoxuA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:572195901650:android:8f5cfff748be51207b9d0b",
+        "android_client_info": {
+          "package_name": "com.mapbox.mymap"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "572195901650-d3egd2ta849jib0hb703bs199qhm9m0b.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mapbox.mymap",
+            "certificate_hash": "470627376d828cc271ba2dbd245abf9adc0a16f3"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBs25_i_mY8TYbL8Wh6VDhRM_fIPsvoxuA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
